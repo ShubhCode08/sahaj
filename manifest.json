@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Sahaj — Guided Browser MVP",
+  "name": "Sahaj — Guided Browser Demo",
   "version": "0.1.0",
   "description": "Accessible guided tasks with a local demo agent and action guard.",
   "permissions": ["sidePanel", "activeTab", "scripting"],
