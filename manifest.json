@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Sahaj — Guided Browser MVP",
+  "version": "0.1.0",
+  "description": "Accessible guided tasks with a local demo agent and action guard.",
+  "permissions": ["sidePanel", "activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Open Sahaj"},
+  "side_panel": {"default_path": "panel.html"},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://127.0.0.1:8000 ws://127.0.0.1:8000"}
+}
